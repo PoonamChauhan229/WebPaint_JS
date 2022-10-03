@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-   
+   <link rel="stylesheet" href="style.css">
     <!--fav icon -->
     <link rel="shortcut icon" href="https://i.ibb.co/k4ydv54/pencil.png" type="image/x-icon">
 
@@ -31,7 +31,7 @@
 
         <nav class="navbar navbar-light bg-light container-fluid">
             <div class="container-fluid tools">
-                <span class="navbar-brand mb-0 h1">Web Paint</span>
+                <span class="navbar-brand mb-0 h1">Guvi Paint</span>
 
                <div class="d-flex justify-content-end">
                  <!-- Erase Button -->
@@ -39,14 +39,17 @@
 
                  <!-- Save Button -->
                  <button type="button" class="btn btn-light border me-3"><i class="fa-solid fa-floppy-disk"></i></button>
- 
+                
                  <!-- Color Picker -->
-                 <button type="button" class="btn btn-light border me-3">
-                 <input type="color" name="" id="color-picker">
-                 <div>
-                    <label for="color-picker">Color</label>
-                </div>
-                 </button>
+                 <button type="button" class="color-btn btn btn-light border me-3">
+                    <input type="color" id="color-picker" class="border-0">
+                    <label for="color-picker">
+                        <div></div>
+                        Color
+                    </label>
+                </button>
+                
+                 
  
                  <!-- Size list --> 
                  <div class="dropdown me-3">                        

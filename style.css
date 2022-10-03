@@ -1,0 +1,17 @@
+
+.color-btn div {
+	border: none;
+	width: 70%;
+	height: 20px;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    left:1;
+}
+.color-btn{
+    position: relative;
+}
+input[type="color"] {
+	width: 45px;
+	height: 32px;
+}
